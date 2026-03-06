@@ -104,11 +104,26 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 
 ---
 
-## 💻 Most Used Languages
+## � Developer Dashboard
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LoveTechX&theme=tokyonight" alt="GitHub Profile Summary"/>
+</p>
+
+---
+
+## �💻 Most Used Languages
 
 <p align="center">
 <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages"/>
 </p>
+
+---
+
+## ⏱ Coding Activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
