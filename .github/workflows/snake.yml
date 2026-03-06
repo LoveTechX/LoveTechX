@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily
+    - cron: "0 0 * * *"  # Daily at midnight UTC
   workflow_dispatch:
   push:
     branches:
@@ -33,5 +33,7 @@ jobs:
           target_branch: output
           build_dir: output
           commit_message: "chore: update contribution snake"
+          fqdn: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

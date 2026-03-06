@@ -1,11 +1,15 @@
 <h1 align="center">Hi 👋, I'm Lovepreet Singh</h1>
 
 <p align="center">
-Software Developer • Problem Solver • Systems Thinker
+<strong>Software Developer • Problem Solver • Systems Thinker</strong>
 </p>
 
 <p align="center">
 Focused on building reliable software systems, solving complex problems, and strengthening strong computer science fundamentals.
+</p>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=LoveTechX&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ---
@@ -19,20 +23,20 @@ Focused on building reliable software systems, solving complex problems, and str
 
 ---
 
-# 🧠 Tech Stack
+## 🧠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,git,github,linux,vscode,firebase,flutter" />
+<img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,typescript,git,github,linux,vscode,firebase,flutter" alt="Tech Stack"/>
 </p>
 
 ---
 
-# 📂 Featured Projects
+## 📂 Featured Projects
 
 ### Smart Transport System
 A real-time transport tracking platform designed to improve passenger visibility and route transparency.
 
-Key Features
+**Key Features**
 - Real-time vehicle tracking
 - ETA prediction
 - Offline vehicle detection
@@ -45,124 +49,102 @@ Key Features
 
 A structured repository containing solutions to **Data Structures & Algorithms** problems organized by topic and difficulty.
 
-Repository  
-https://github.com/LoveTechX/dsa-practice
+**Repository:** [github.com/LoveTechX/dsa-practice](https://github.com/LoveTechX/dsa-practice)
 
-Topics Covered
-- Arrays
-- Strings
+**Topics Covered**
+- Arrays & Strings
 - Linked Lists
 - Stacks & Queues
-- Trees
-- Graphs
-- Recursion
+- Trees & Graphs
+- Recursion & Backtracking
 - Dynamic Programming
+- Advanced Data Structures
 
 ---
 
-# ⭐ Featured Repositories
+## ⭐ Featured Repositories
 
 <p align="center">
 
 <a href="https://github.com/LoveTechX/dsa-practice">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=LoveTechX&repo=dsa-practice&theme=tokyonight&cache_seconds=86400" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=LoveTechX&repo=dsa-practice&theme=tokyonight" alt="DSA Practice"/>
 </a>
 
 <a href="https://github.com/LoveTechX/synapse">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=LoveTechX&repo=synapse&theme=tokyonight&cache_seconds=86400" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=LoveTechX&repo=synapse&theme=tokyonight" alt="Synapse"/>
 </a>
 
 </p>
 
 ---
 
-# 📚 DSA Progress
+## 📚 DSA Progress
 
-| Topic | Problems Solved |
-|------|----------------|
-| Arrays | 0 |
-| Strings | 0 |
-| Linked Lists | 0 |
-| Stacks & Queues | 0 |
-| Trees | 0 |
-| Graphs | 0 |
-| Recursion | 0 |
-| Dynamic Programming | 0 |
-
-Total Problems Solved: **0**
+<!--START_SECTION:dsa-->
+**Total Problems Solved: 0**
+<!--END_SECTION:dsa-->
 
 ---
 
-# 🧠 LeetCode Stats
+## 🧠 LeetCode Stats
 
 <p align="center">
-
-<img src="https://leetcard.jacoblin.cool/Lovepreet_Singh007?theme=dark&font=Karma" />
-
+<img src="https://leetcard.jacoblin.cool/Lovepreet_Singh007?theme=dark&font=Karma" alt="LeetCode Stats"/>
 </p>
 
 ---
 
-# 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&show=prs_merged_percentage" alt="GitHub Stats" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&cache_seconds=86400" height="170"/>
-
-<img src="https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight" height="170"/>
-
+<img src="https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight" alt="GitHub Streak" height="170"/>
 </p>
 
 ---
 
-# 💻 Most Used Languages
+## 💻 Most Used Languages
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight&cache_seconds=86400"/>
-
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
 
 ---
 
-# 🏆 GitHub Achievements
+## 🏆 GitHub Achievements
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&margin-w=10" />
-
+<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&margin-w=10" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-# ⚡ Latest Activity
+## ⚡ Latest Activity
 
 <!--START_SECTION:activity-->
+Activity stream updates automatically.
 <!--END_SECTION:activity-->
 
 ---
 
-# 📈 Contribution Graph
+## 📈 Contribution Graph
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LoveTechX&theme=tokyo-night" />
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LoveTechX&theme=tokyo-night&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
 </p>
 
 ---
 
-# 🐍 Contribution Snake
+## 🐍 Contribution Snake
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/LoveTechX/LoveTechX/output/github-contribution-grid-snake.svg" />
-
+<img src="https://raw.githubusercontent.com/LoveTechX/LoveTechX/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
 </p>
 
 ---
 
-# 🎯 Long-Term Goals
+## 🎯 Long-Term Goals
 
 - Master **Data Structures & Algorithms**
 - Build **production-grade software systems**
@@ -171,24 +153,13 @@ Total Problems Solved: **0**
 
 ---
 
-# 📫 Contact
+## 📫 Contact
 
-GitHub  
-https://github.com/LoveTechX
-
-Email  
-lovepreetsinghthind08@gmail.com
+- **GitHub:** [LoveTechX](https://github.com/LoveTechX)
+- **Email:** [lovepreetsinghthind08@gmail.com](mailto:lovepreetsinghthind08@gmail.com)
 
 ---
-
-# 👀 Profile Views
 
 <p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=LoveTechX&label=Profile%20Views&color=0e75b6&style=flat" />
-
+<strong>⭐ Continuous learning. Disciplined engineering. Real-world problem solving.</strong>
 </p>
-
----
-
-⭐ Continuous learning. Disciplined engineering. Real-world problem solving.
