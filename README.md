@@ -79,6 +79,27 @@ Topics Covered
 
 ---
 
+## 📚 DSA Progress
+
+| Topic | Problems Solved |
+|------|----------------|
+| Arrays | 0 |
+| Strings | 0 |
+| Linked Lists | 0 |
+| Stacks & Queues | 0 |
+| Trees | 0 |
+| Graphs | 0 |
+| Recursion | 0 |
+| Dynamic Programming | 0 |
+
+Total Problems Solved: **0**
+
+<img src="https://github-readme-stats.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&count_private=true" />
+
+<img src="https://leetcard.jacoblin.cool/LoveTechX?theme=dark&font=Karma" />
+
+---
+
 ## 📊 GitHub Statistics
 
 <p align="center">
