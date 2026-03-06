@@ -1,0 +1,27 @@
+name: Update DSA Progress
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Count problems
+        run: |
+          TOTAL=$(find ./ -name "*.cpp" -o -name "*.py" -o -name "*.c" | wc -l)
+
+          echo "## 📚 DSA Progress" > dsa.md
+          echo "" >> dsa.md
+          echo "**Total Problems Solved: $TOTAL**" >> dsa.md
+
+      - name: Inject into README
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'dsa.md'
