@@ -62,6 +62,55 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 
 ---
 
+## 🏗️ Project Architecture
+
+### Smart Transport System - System Design
+
+```mermaid
+graph TB
+    subgraph Client["Mobile Client Layer"]
+        A[Flutter App]
+        A1[Real-time UI]
+        A2[Offline Cache]
+    end
+    
+    subgraph Backend["Backend Services"]
+        B[Firebase Realtime Database]
+        C[Cloud Functions]
+        D[Authentication]
+    end
+    
+    subgraph Tracking["Vehicle Tracking"]
+        E[GPS Module]
+        F[Location Service]
+        G[ETA Calculator]
+    end
+    
+    A --> A1
+    A --> A2
+    A1 --> B
+    A2 --> A1
+    B --> C
+    C --> D
+    F --> G
+    E --> F
+    F --> B
+    G --> B
+    B --> A1
+    
+    style A fill:#3b82f6
+    style B fill:#8b5cf6
+    style E fill:#10b981
+```
+
+**Architecture Highlights**
+- **Client Layer:** Flutter-based cross-platform mobile application
+- **Backend:** Firebase for real-time data synchronization
+- **Tracking System:** GPS-based vehicle location tracking with ETA prediction
+- **Offline Support:** Local caching for network interruptions
+
+---
+
 ## ⭐ Featured Repositories
 
 <p align="center">
@@ -94,32 +143,6 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 
 ---
 
-## 📊 GitHub Statistics
-
-<p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="170"/>
-
-<img src="https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight" alt="GitHub Streak" height="170"/>
-</p>
-
----
-
-## � Developer Dashboard
-
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LoveTechX&theme=tokyonight" alt="GitHub Profile Summary"/>
-</p>
-
----
-
-## �💻 Most Used Languages
-
-<p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages"/>
-</p>
-
----
-
 ## ⏱ Coding Activity
 
 <!--START_SECTION:waka-->
@@ -127,19 +150,27 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 
 ---
 
-## 🏆 GitHub Achievements
+## 📊 GitHub Dashboard
+
+### Statistics Overview
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="170"/>
+
+<img src="https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight" alt="Contribution Streak" height="170"/>
 </p>
 
----
+### Profile Summary
 
-## ⚡ Latest Activity
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LoveTechX&theme=tokyonight" alt="GitHub Profile Summary"/>
+</p>
 
-<!--START_SECTION:activity-->
-Activity stream updates automatically.
-<!--END_SECTION:activity-->
+### Most Used Languages
+
+<p align="center">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages"/>
+</p>
 
 ---
 
@@ -159,12 +190,18 @@ Activity stream updates automatically.
 
 ---
 
-## 🎯 Long-Term Goals
+## 🏆 GitHub Achievements
 
-- Master **Data Structures & Algorithms**
-- Build **production-grade software systems**
-- Contribute to **open-source projects**
-- Become a **highly skilled software engineer**
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+</p>
+
+---
+
+## ⚡ Latest Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
