@@ -1,99 +1,105 @@
-# Hi, I'm Lovepreet Singh 👋
+<h1 align="center">Hi 👋, I'm Lovepreet Singh</h1><p align="center">
+Software Developer • Problem Solver • Systems Thinker
+</p><p align="center">
+Focused on building reliable software systems, solving complex problems, and strengthening strong computer science fundamentals.
+</p>---
 
-💻 Software Developer | Problem Solver | Technology Enthusiast  
+🚀 Current Focus
 
-I am passionate about building reliable software systems, solving complex problems, and continuously improving my engineering skills. My focus is on strengthening core computer science fundamentals while developing real-world software projects.
-
----
-
-## 🚀 Current Focus
-
-- Practicing **Data Structures and Algorithms**
-- Building **real-world software projects**
-- Improving **system design and software engineering skills**
-- Strengthening **Linux and automation workflows**
+- Practicing Data Structures & Algorithms
+- Building real-world software projects
+- Improving Linux automation workflows
+- Strengthening system design and software engineering skills
 
 ---
 
-## 🧠 Technical Skills
+🧠 Tech Stack
 
-### Programming Languages
-- C
-- C++
-- JavaScript
-- Python
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,git,github,linux,vscode,firebase,flutter" />
+</p>---
 
-### Technologies & Tools
-- Git & GitHub
-- Linux CLI
-- VS Code
-- Firebase
-- Flutter
+📂 Featured Projects
 
-### Computer Science Areas
-- Data Structures & Algorithms
-- Object-Oriented Programming
-- Software Design
-- System Architecture
+Smart Transport System
 
----
+A real-time transport tracking platform designed to improve passenger visibility and route transparency.
 
-## 📂 Featured Projects
+Key Features
 
-### Smart Transport System
-A real-time transport tracking system designed to improve passenger experience and route transparency.
-
-Key Features:
 - Real-time vehicle tracking
 - ETA prediction
 - Offline vehicle detection
-- Firebase-based live updates
+- Firebase real-time updates
+- Flutter-based client application
 
 ---
 
-### DSA Practice Repository
-A structured repository containing solutions to data structure and algorithm problems organized by topic and difficulty.
+DSA Practice Repository
 
-Repository:
+A structured repository containing solutions to Data Structures & Algorithms problems organized by topic and difficulty.
+
+Repository
 https://github.com/LoveTechX/dsa-practice
 
-Topics Covered:
+Topics Covered
+
 - Arrays
 - Strings
 - Linked Lists
 - Stacks & Queues
 - Trees
 - Graphs
-- Dynamic Programming
 - Recursion
+- Dynamic Programming
 
 ---
 
-## 📊 GitHub Stats
+📊 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight)
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight" height="170"/><img src="https://github-readme-streak-stats.herokuapp.com/?user=LoveTechX&theme=tokyonight" height="170"/></p>---
 
-![GitHub Streak](https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight)
+💻 Most Used Languages
+
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight"/></p>---
+
+🏆 GitHub Achievements
+
+<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&row=1&column=6" /></p>---
+
+📈 Contribution Graph
+
+""Lovepreet's github activity graph" (https://github-readme-activity-graph.vercel.app/graph?username=LoveTechX&theme=tokyo-night)" (https://github.com/LoveTechX)
 
 ---
 
-## 🎯 Goals
+🐍 Contribution Snake
 
-- Master **Data Structures & Algorithms**
-- Build **high-quality production-grade projects**
-- Contribute to **open-source software**
-- Become a **highly skilled software engineer**
+<p align="center">
+<img src="https://raw.githubusercontent.com/LoveTechX/LoveTechX/output/github-contribution-grid-snake.svg" />
+</p>---
+
+🎯 Long-Term Goals
+
+- Master Data Structures & Algorithms
+- Build production-grade software systems
+- Contribute to open-source projects
+- Become a highly skilled software engineer
 
 ---
 
-## 📫 Connect With Me
+📫 Connect With Me
 
-GitHub:  
+GitHub
 https://github.com/LoveTechX
 
-Email:  
+Email
 lovepreetsinghthind08@gmail.com
 
 ---
 
-⭐ *Always learning, building, and improving.*
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=LoveTechX&label=Profile%20Views&color=0e75b6&style=flat" />
+</p>---
+
+⭐ Continuous learning. Disciplined engineering. Real-world problem solving.
