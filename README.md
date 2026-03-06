@@ -97,7 +97,7 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 ## 📊 GitHub Statistics
 
 <p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&show=prs_merged_percentage" alt="GitHub Stats" height="170"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LoveTechX&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="170"/>
 
 <img src="https://streak-stats.demolab.com?user=LoveTechX&theme=tokyonight" alt="GitHub Streak" height="170"/>
 </p>
@@ -107,7 +107,7 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 ## 💻 Most Used Languages
 
 <p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight" alt="Top Languages"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LoveTechX&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages"/>
 </p>
 
 ---
@@ -115,7 +115,7 @@ A structured repository containing solutions to **Data Structures & Algorithms**
 ## 🏆 GitHub Achievements
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&margin-w=10" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=LoveTechX&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
 </p>
 
 ---
