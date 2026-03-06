@@ -132,6 +132,13 @@ Total Problems Solved: **0**
 
 ---
 
+## ⚡ Latest Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
 ## 📈 Contribution Graph
 
 [![Lovepreet's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=LoveTechX&theme=tokyo-night)](https://github.com/LoveTechX)
