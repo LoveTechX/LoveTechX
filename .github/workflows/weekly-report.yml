@@ -1,0 +1,135 @@
+name: Weekly Development Report
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # Every Sunday at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests python-dateutil
+
+      - name: Generate Weekly Report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python << 'EOF'
+          import os
+          import requests
+          import json
+          from datetime import datetime, timedelta
+          from dateutil import parser
+
+          # Configuration
+          username = "LoveTechX"
+          token = os.environ['GITHUB_TOKEN']
+          headers = {
+              'Authorization': f'token {token}',
+              'Accept': 'application/vnd.github.v3+json'
+          }
+
+          # Calculate date range (last 7 days)
+          end_date = datetime.utcnow()
+          start_date = end_date - timedelta(days=7)
+
+          # Fetch user's repositories
+          repos_url = f'https://api.github.com/users/{username}/repos?per_page=100'
+          repos_response = requests.get(repos_url, headers=headers)
+          repos = repos_response.json()
+
+          total_commits = 0
+          repos_updated = set()
+          languages_used = set()
+
+          # Iterate through each repository
+          for repo in repos:
+              if isinstance(repo, dict):
+                  repo_name = repo.get('name')
+                  full_name = repo.get('full_name')
+                  
+                  # Get commits from the last week
+                  commits_url = f'https://api.github.com/repos/{full_name}/commits'
+                  params = {
+                      'author': username,
+                      'since': start_date.isoformat() + 'Z',
+                      'until': end_date.isoformat() + 'Z'
+                  }
+                  
+                  try:
+                      commits_response = requests.get(commits_url, headers=headers, params=params)
+                      if commits_response.status_code == 200:
+                          commits = commits_response.json()
+                          if commits and len(commits) > 0:
+                              total_commits += len(commits)
+                              repos_updated.add(repo_name)
+                      
+                      # Get languages
+                      if repo.get('language'):
+                          languages_used.add(repo.get('language'))
+                  except:
+                      pass
+
+          # Format the report
+          report = f"""**This Week's Activity:**
+
+          - 📝 **Commits:** {total_commits}
+          - 📦 **Repositories Updated:** {len(repos_updated)}
+          - 💻 **Languages Used:** {', '.join(sorted(languages_used)) if languages_used else 'N/A'}
+          - 📅 **Period:** {start_date.strftime('%b %d')} - {end_date.strftime('%b %d, %Y')}
+
+          """
+
+          if repos_updated:
+              report += f"**Active Repositories:**\n"
+              for repo in sorted(repos_updated)[:5]:  # Top 5
+                  report += f"- {repo}\n"
+
+          # Read README
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Replace the weekly section
+          start_marker = '<!--START_SECTION:weekly-->'
+          end_marker = '<!--END_SECTION:weekly-->'
+          
+          start_idx = content.find(start_marker)
+          end_idx = content.find(end_marker)
+          
+          if start_idx != -1 and end_idx != -1:
+              new_content = (
+                  content[:start_idx + len(start_marker)] +
+                  '\n' + report +
+                  content[end_idx:]
+              )
+              
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_content)
+              
+              print("Weekly report updated successfully!")
+          else:
+              print("Warning: Could not find weekly section markers")
+          EOF
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update weekly development report"
+          add: "README.md"
+          default_author: github_actions

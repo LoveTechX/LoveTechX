@@ -198,7 +198,18 @@ graph TB
 
 ---
 
-## ⚡ Latest Activity
+## 📅 Weekly Development Report
+
+<!--START_SECTION:weekly-->
+**This Week's Activity:**
+- Commits: Calculating...
+- Repositories Updated: Calculating...
+- Last Updated: Pending workflow run
+<!--END_SECTION:weekly-->
+
+---
+
+## ⚡ Recent Development Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
