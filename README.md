@@ -1,70 +1,118 @@
-<h1 align="center">Lovepreet Singh</h1>
+<h1 align="center">Lovepreet Singh Thind</h1>
 
 <p align="center">
-Building real-time systems • Backend-focused engineer • Problem solver
+B.Tech IT Student • Software Developer in Progress • Always Learning
 </p>
 
 <p align="center">
-Focused on scalable software architecture, automation, and solving real-world problems through engineering.
+Passionate about understanding computer science from first principles and building strong foundations in software development.
 </p>
 
 ---
 
-## 🧩 Engineering Focus
+## 🚀 Current Focus
 
-- Real-time systems & event-driven architecture  
-- Scalable backend design  
-- Linux automation & scripting  
-- Strong problem-solving using Data Structures & Algorithms  
-
----
-
-## 🔨 Currently Building
-
-- **Smart Transport System** — Real-time vehicle tracking platform  
-- **Smart Document Hub** — AI-powered document processing ecosystem (in progress)
+- 📚 Data Structures & Algorithms (C++)
+- 🌐 Web Development (HTML, CSS, JavaScript)
+- ☕ Java Programming
+- 🗄 Database Management Systems (SQL Server)
+- ⚙ Software Engineering
+- 💻 Problem Solving
 
 ---
 
-## 🚀 Projects
+## 📖 Currently Learning
 
-### Smart Transport System
-
-Real-time transport tracking system designed to improve passenger visibility and reliability.
-
-**Highlights**
-- Implemented live GPS tracking using Firebase real-time streams  
-- Built ETA prediction system with continuous location updates  
-- Designed offline detection logic using timestamp-based validation  
-- Developed scalable client architecture using Flutter + Firestore  
-
-**Tech Stack**
-Flutter • Firebase • Geolocation APIs • Real-time Streams  
+- CSS Layout & Box Model
+- Java OOP Concepts
+- SQL & Database Design
+- Software Development Life Cycle (SDLC)
+- Theory of Computation (FLAT)
+- Git & GitHub
 
 ---
 
-### DSA Practice Repository
+## 📂 Featured Repositories
 
-Structured repository containing solutions to core Data Structures & Algorithms problems.
+### 📘 DSA Practice
 
-**Repository**  
+Learning Data Structures & Algorithms through structured problem solving.
+
+Topics covered:
+- Arrays
+- Binary Search
+- Sorting
+- Recursion
+- STL Basics (Coming Soon)
+
+Repository:
 https://github.com/LoveTechX/dsa-practice
 
-**Covered Topics**
-- Arrays & Strings  
-- Linked Lists  
-- Stacks & Queues  
-- Trees & Graphs  
-- Recursion & Backtracking  
-- Dynamic Programming  
+---
+
+### 🌐 Web Development Journey
+
+Repository documenting my learning journey from HTML, CSS and JavaScript to full-stack development.
+
+Current Progress:
+- HTML
+- CSS Fundamentals
+- Box Model
+- Responsive Design (Upcoming)
+
+---
+
+### ☕ Java Practice
+
+College Java programs and object-oriented programming exercises.
+
+Topics:
+- Variables
+- Operators
+- Classes & Objects
+- Methods
+- Encapsulation
+
+---
+
+### 🗄 DBMS Lab
+
+SQL Server laboratory programs and SQL practice.
+
+Topics:
+- Database Creation
+- Tables
+- Constraints
+- Queries
+- CRUD Operations
 
 ---
 
 ## 🛠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,typescript,git,github,linux,vscode,firebase,flutter" />
+<img src="https://skillicons.dev/icons?i=c,cpp,java,html,css,javascript,git,github,vscode" />
 </p>
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+Currently Learning:
+- SQL Server
+- Git
+- Web Development
+
+---
+
+## 📈 2026 Goals
+
+- Complete DSA
+- Build Full Stack Projects
+- Strengthen Java Programming
+- Master DBMS & SQL
+- Learn Backend Development
+- Prepare for Software Engineering Internships
 
 ---
 
@@ -78,13 +126,13 @@ https://github.com/LoveTechX/dsa-practice
 
 ---
 
-## 📫 Contact
+## 📫 Connect
 
-- GitHub: https://github.com/LoveTechX  
-- Email: lovepreetsinghthind08@gmail.com  
+- GitHub: https://github.com/LoveTechX
+- Email: lovepreetsinghthind08@gmail.com
 
 ---
 
 <p align="center">
-<strong>Focused. Consistent. Building systems that work in the real world.</strong>
+<i>"Consistency beats intensity. Every day is another step toward becoming a better engineer."</i>
 </p>
