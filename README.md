@@ -1,4 +1,4 @@
-<h1 align="center">Lovepreet Singh Thind</h1>
+<h1 align="center">Lovepreet Singh</h1>
 
 <p align="center">
 B.Tech IT Student • Software Developer in Progress • Always Learning
